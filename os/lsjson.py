@@ -9,6 +9,10 @@ def lsjson(argv):
     quit(4)
 
   def _printDictonary(level, branch, dic):
+<<<<<<< HEAD
+=======
+    nonlocal argv
+>>>>>>> 2d91aec7f84eb487143558495bf3384cace65b9a
     for k, v in dic.items():
       if level <= 0 or k == argv[-level]:
         if type(v) == dict:
