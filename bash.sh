@@ -1,7 +1,7 @@
 #/bin/bash
 
 function lsjson {
-  python3 os/lsjson.py ${@:1}
+  python3 data/lsjson.py ${@:1}
 }
 
   
